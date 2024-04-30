@@ -19,7 +19,9 @@ const Roots = () => {
                 <div className="">
                     <Navbar></Navbar>
                 </div>
-                <Outlet></Outlet>
+                <div className="p-5">
+                    <Outlet></Outlet>
+                </div>
             </div>
         </div>
     );

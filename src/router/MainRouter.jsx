@@ -2,6 +2,7 @@ import React from 'react';
 import { createBrowserRouter } from 'react-router-dom';
 import Roots from '../layout/Roots';
 import ErrorPage from '../shared/ErrorPage';
+import Departments from '../pages/Departments';
 
 const MainRouter = createBrowserRouter([
 
@@ -12,7 +13,7 @@ const MainRouter = createBrowserRouter([
         children: [
             {
                 path: 'departments',
-                element: <p>Departments</p>
+                element: <Departments></Departments>
             },
             {
                 path: 'designations',

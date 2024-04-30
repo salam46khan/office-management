@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "depertment": "Web Development"
+    },
+    {
+        "id": 2,
+        "depertment": "Application Development"
+    },
+    {
+        "id": 3,
+        "depertment": "IT Management"
+    },
+    {
+        "id": 4,
+        "depertment": "Accounts Management"
+    },
+    {
+        "id": 5,
+        "depertment": "Support Management"
+    },
+    {
+        "id": 6,
+        "depertment": "Marketing"
+    }
+]
