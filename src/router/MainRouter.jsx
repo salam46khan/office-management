@@ -1,12 +1,14 @@
 import React from 'react';
 import { createBrowserRouter } from 'react-router-dom';
 import Roots from '../layout/Roots';
+import ErrorPage from '../shared/ErrorPage';
 
 const MainRouter = createBrowserRouter([
+
     {
         path: 'dashboard',
         element: <Roots></Roots>,
-        errorElement: <p>error</p>,
+        errorElement: <ErrorPage></ErrorPage>,
         children: [
             {
                 path: 'profile',
