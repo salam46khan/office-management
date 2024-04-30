@@ -11,12 +11,24 @@ const MainRouter = createBrowserRouter([
         errorElement: <ErrorPage></ErrorPage>,
         children: [
             {
-                path: 'profile',
-                element: <p>profile</p>
+                path: 'departments',
+                element: <p>Departments</p>
             },
             {
-                path: '',
-                element: <p>dashboard</p>
+                path: 'designations',
+                element: <p>Designations</p>
+            },
+            {
+                path: 'timesheets',
+                element: <p>Timesheets</p>
+            },
+            {
+                path: 'schedule',
+                element: <p>Schedule</p>
+            },
+            {
+                path: 'overtime',
+                element: <p>Overtime</p>
             }
         ]
     }

@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Logo from "../shared/Logo";
 import SideNav from "../shared/SideNav";
+import Navbar from "../shared/Navbar";
 
 const Roots = () => {
     return (
@@ -14,8 +15,10 @@ const Roots = () => {
 
                 </div>
             </div>
-            <div>
-                <p>head</p>
+            <div className="border flex-1">
+                <div className="">
+                    <Navbar></Navbar>
+                </div>
                 <Outlet></Outlet>
             </div>
         </div>

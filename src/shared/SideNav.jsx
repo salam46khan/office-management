@@ -10,7 +10,7 @@ const SideNav = () => {
     const [open, setOpen] = useState(true);
     return (
         <div>
-            <div className="h-screen w-full p-4">
+            <div className="h-full w-full p-4">
                 <ul className="space-y-2">
                     <li>
                         <NavLink to={''}>
@@ -36,31 +36,31 @@ const SideNav = () => {
                             open ? (
                                 <ul className="pl-4 pt-1 space-y-1">
                                     <li>
-                                        <NavLink to={'profile'} className='flex items-center space-x-1'>
+                                        <NavLink to={'departments'} className='flex items-center space-x-1'>
                                             <IoIosArrowForward />
                                             <p>Departments</p>
                                         </NavLink>
                                     </li>
                                     <li>
-                                        <NavLink to={''} className='flex items-center space-x-1'>
+                                        <NavLink to={'designations'} className='flex items-center space-x-1'>
                                             <IoIosArrowForward />
                                             <p>Designations</p>
                                         </NavLink>
                                     </li>
                                     <li>
-                                        <NavLink to={''} className='flex items-center space-x-1'>
+                                        <NavLink to={'timesheets'} className='flex items-center space-x-1'>
                                             <IoIosArrowForward />
                                             <p>Timesheets</p>
                                         </NavLink>
                                     </li>
                                     <li>
-                                        <NavLink to={''} className='flex items-center space-x-1'>
+                                        <NavLink to={'schedule'} className='flex items-center space-x-1'>
                                             <IoIosArrowForward />
                                             <p>Shift & Schedule</p>
                                         </NavLink>
                                     </li>
                                     <li>
-                                        <NavLink to={''} className='flex items-center space-x-1'>
+                                        <NavLink to={'overtime'} className='flex items-center space-x-1'>
                                             <IoIosArrowForward />
                                             <p>Overtime</p>
                                         </NavLink>
