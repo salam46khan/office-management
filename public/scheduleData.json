@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "name": "Feroz",
+        "img": "https://i.ibb.co/D7gW3zR/team-3.jpg",
+        "sat": "4:00pm to 10:00pm (6 hours)",
+        "sun": "",
+        "mon": "",
+        "tue": "4:00pm to 10:00pm (6 hours)",
+        "Wed": "4:00pm to 10:00pm (6 hours)"
+    },
+    {
+        "id":2,
+        "name": "Jhon Doe",
+        "img": "https://i.ibb.co/QDGK2Mc/user-avatar-2.jpg",
+        "sat": "4:00pm to 10:00pm (6 hours)",
+        "sun": "",
+        "mon": "4:00pm to 10:00pm (6 hours)",
+        "tue": "4:00pm to 10:00pm (6 hours)",
+        "Wed": ""
+    },
+    {
+        "id":3,
+        "name": "Jhon Doe",
+        "img": "https://i.ibb.co/QDGK2Mc/user-avatar-2.jpg",
+        "sat": "",
+        "sun": "4:00pm to 10:00pm (6 hours)",
+        "mon": "4:00pm to 10:00pm (6 hours)",
+        "tue": "4:00pm to 10:00pm (6 hours)",
+        "wed": "4:00pm to 10:00pm (6 hours)"
+    }
+]

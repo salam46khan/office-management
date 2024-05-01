@@ -6,6 +6,7 @@ import Departments from '../pages/Departments';
 import Dasignation from '../pages/Dasignation';
 import TimeSheet from '../pages/TimeSheet';
 import Overtime from '../pages/Overtime';
+import Schedule from '../pages/Schedule';
 
 const MainRouter = createBrowserRouter([
 
@@ -28,7 +29,7 @@ const MainRouter = createBrowserRouter([
             },
             {
                 path: 'schedule',
-                element: <p>Schedule</p>
+                element: <Schedule></Schedule>
             },
             {
                 path: 'overtime',
