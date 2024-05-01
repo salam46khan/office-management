@@ -3,6 +3,7 @@ import { createBrowserRouter } from 'react-router-dom';
 import Roots from '../layout/Roots';
 import ErrorPage from '../shared/ErrorPage';
 import Departments from '../pages/Departments';
+import Dasignation from '../pages/Dasignation';
 
 const MainRouter = createBrowserRouter([
 
@@ -17,7 +18,7 @@ const MainRouter = createBrowserRouter([
             },
             {
                 path: 'designations',
-                element: <p>Designations</p>
+                element: <Dasignation></Dasignation>
             },
             {
                 path: 'timesheets',

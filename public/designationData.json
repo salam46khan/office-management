@@ -1,0 +1,37 @@
+[
+    {
+        "id":1,
+        "department": "Web Designer",
+        "designation": "Web Design"
+    },
+    {
+        "id":2,
+        "department": "App Designer",
+        "designation": "App Development"
+    },
+    {
+        "id":3,
+        "department": "Android Designer",
+        "designation": "Web Development"
+    },
+    {
+        "id":4,
+        "department": "UI Designer",
+        "designation": "Web Development"
+    },
+    {
+        "id":5,
+        "department": "Product Manager",
+        "designation": "IT Manager"
+    },
+    {
+        "id":6,
+        "department": "Front End Designer",
+        "designation": "Web Development"
+    },
+    {
+        "id":7,
+        "department": "SEO Analyst",
+        "designation": "Marketing"
+    }
+]
