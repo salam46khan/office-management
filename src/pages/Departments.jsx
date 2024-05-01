@@ -31,7 +31,6 @@ const Departments = () => {
                                         <div className="form-control">
                                             <label className="label flex">
                                                 <span className="label-text">Department Name <span className="text-red-600 ml-1">*</span></span>
-
                                             </label>
                                             <input type="text" placeholder="department name" className="input input-bordered" name="name"  required />
                                         </div>

@@ -4,6 +4,8 @@ import Roots from '../layout/Roots';
 import ErrorPage from '../shared/ErrorPage';
 import Departments from '../pages/Departments';
 import Dasignation from '../pages/Dasignation';
+import TimeSheet from '../pages/TimeSheet';
+import Overtime from '../pages/Overtime';
 
 const MainRouter = createBrowserRouter([
 
@@ -22,7 +24,7 @@ const MainRouter = createBrowserRouter([
             },
             {
                 path: 'timesheets',
-                element: <p>Timesheets</p>
+                element: <TimeSheet></TimeSheet>
             },
             {
                 path: 'schedule',
@@ -30,7 +32,7 @@ const MainRouter = createBrowserRouter([
             },
             {
                 path: 'overtime',
-                element: <p>Overtime</p>
+                element: <Overtime></Overtime>
             }
         ]
     }
