@@ -14,7 +14,7 @@ const DesignationItems = () => {
 
 
     useEffect(() => {
-        fetch('/public/designationData.json')
+        fetch('/designationData.json')
             .then(res => res.json())
             .then(data => setDesignation(data))
     }, [])

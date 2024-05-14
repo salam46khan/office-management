@@ -16,7 +16,7 @@ const DepartmentItems = () => {
 
 
     useEffect(() => {
-        fetch('/public/departmentData.json')
+        fetch("/departmentData.json")
             .then(res => res.json())
             .then(data => setDepartment(data))
     }, [])
