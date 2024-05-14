@@ -18,7 +18,7 @@ const TimeSheetItems = () => {
 
 
     useEffect(() => {
-        fetch('timeSheetData.json')
+        fetch('/timeSheetData.json')
             .then(res => res.json())
             .then(data => setWorkTime(data))
     }, [])

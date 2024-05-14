@@ -18,7 +18,7 @@ const ErrorPage = () => {
                     </div>
                 </div>
                 <div className="w-1/2">
-                    <img src={`/public/undraw_warning_re_eoyh.svg`} alt="" />
+                    <img src={`/undraw_warning_re_eoyh.svg`} alt="" />
                 </div>
             </div>
         </div>

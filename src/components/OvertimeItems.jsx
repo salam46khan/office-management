@@ -17,7 +17,7 @@ const OvertimeItems = () => {
     };
 
     useEffect(() => {
-        fetch('overtimeData.json')
+        fetch('/overtimeData.json')
             .then(res => res.json())
             .then(data => setOvertime(data))
     }, [])

@@ -1,4 +1,4 @@
-import { MdOutlineDashboard } from "react-icons/md";
+import { MdHome, MdOutlineDashboard } from "react-icons/md";
 import { NavLink } from "react-router-dom";
 import { LiaUserSolid } from "react-icons/lia";
 import { IoIosArrowForward } from "react-icons/io";
@@ -69,6 +69,14 @@ const SideNav = () => {
                             ) :
                                 ''
                         }
+                    </li>
+                    <li>
+                        <NavLink to={'/'}>
+                            <div className="flex gap-2 justify-start items-center">
+                                <MdHome className="text-xl" />
+                                <p>Home</p>
+                            </div>
+                        </NavLink>
                     </li>
                 </ul>
             </div>
